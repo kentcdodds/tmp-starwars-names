@@ -27,7 +27,7 @@
     "verifyConditions": {
       "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
     }
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kentcdodds/starwars-names.git"
