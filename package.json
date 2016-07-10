@@ -15,11 +15,8 @@
     "watch:test": "npm test -- -w",
     "cover": "cross-env NODE_ENV=test nyc npm test",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "release": "semantic-release pre && npm publish && semantic-release post",
+    "release": "semantic-release pre && npm publish --access=public && semantic-release post",
     "validate": "npm-run-all --parallel cover lint build"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "repository": {
     "type": "git",
