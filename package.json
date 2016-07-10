@@ -19,8 +19,7 @@
     "validate": "npm-run-all --parallel cover lint build"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "latest"
+    "access": "public"
   },
   "repository": {
     "type": "git",
