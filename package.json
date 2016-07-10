@@ -18,6 +18,9 @@
     "release": "semantic-release pre && npm publish && semantic-release post",
     "validate": "npm-run-all --parallel cover lint build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kentcdodds/starwars-names.git"
