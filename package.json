@@ -19,14 +19,7 @@
     "validate": "npm-run-all --parallel cover lint build"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "latest"
-  },
-  "release": {
-    "debug": false,
-    "verifyConditions": {
-      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
-    }
+    "access": "public"
   },
   "repository": {
     "type": "git",
